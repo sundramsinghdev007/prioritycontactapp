@@ -1,0 +1,88 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="90sp"
+        android:src="@drawable/contact"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Add Contacts"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_margin="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:id="@+id/et_name"
+        android:layout_margin="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="15dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/et_email"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/male"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/female"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:id="@+id/et_phone"
+         android:textStyle="bold"
+        android:textColorHint="#000"
+        android:layout_margin="15dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="addNew"
+        android:textColor="#fff"
+        android:onClick="addNew"
+        android:background="@drawable/curveblack"
+        />
+
+</LinearLayout>

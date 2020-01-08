@@ -1,0 +1,65 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/show_contact"
+        android:gravity="center"
+        android:onClick="show"
+        android:padding="15dp" />
+
+    <Button
+        android:layout_width="161dp"
+        android:layout_height="40sp"
+        android:background="@drawable/curve"
+        android:onClick="show"
+        android:text="Show Contact" />
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/add_contact"
+        android:gravity="center"
+        android:onClick="add"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="161dp"
+        android:layout_height="40sp"
+        android:background="@drawable/curve"
+        android:onClick="add"
+        android:text="Add Contact" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/show_contact"
+        android:gravity="center"
+        android:onClick="search"
+        android:padding="15dp" />
+
+    <Button
+        android:layout_width="161dp"
+        android:layout_height="40sp"
+        android:background="@drawable/curve"
+        android:onClick="search"
+        android:text="Search Contact" />
+
+</LinearLayout>
